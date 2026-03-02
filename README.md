@@ -28,7 +28,9 @@ Aplicação de gerenciamento de tarefas estilo Trello construída com React.
 
 ## 📸 Preview
 
-(Depois você pode colocar um GIF aqui)
+<img width="2553" height="712" alt="image" src="https://github.com/user-attachments/assets/cb67c973-ca88-436f-ae31-624703b6a27a" />
+
+
 
 ## 🔗 Deploy
 
