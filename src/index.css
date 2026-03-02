@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.app {
+  padding: 30px;
+  min-width: 1200px;
+}
+
+.board {
+  display: flex;
+  gap: 20px;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.column {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: 0.2s ease;
+}
+
+.column.todo {
+  border-top: 4px solid #3b82f6;
+}
+
+.column.doing {
+  border-top: 4px solid #f59e0b;
+}
+
+.column.done {
+  border-top: 4px solid #22c55e;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.card {
+  background: #334155;
+  padding: 14px 16px;
+  border-radius: 12px;
+  cursor: grab;
+
+  width: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  background: #475569;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+
+.card-text {
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+.delete-btn {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+  border: none;
+  color: #ef4444;
+
+  font-size: 16px;
+  cursor: pointer;
+
+  margin-left: 10px;
+  flex-shrink: 0;
+
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.delete-btn:hover {
+  color: #f87171;
+  transform: scale(1.15);
+}
+
+input {
+  max-width: 295px;
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2563eb;
+}
