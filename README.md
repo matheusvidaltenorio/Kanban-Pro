@@ -32,7 +32,7 @@ Aplicação de gerenciamento de tarefas estilo Trello construída com React.
 
 ## 🔗 Deploy
 
-Link: (colocar depois do deploy)
+Link: https://kanban-pro-ucyk.onrender.com/
 
 ---
 
